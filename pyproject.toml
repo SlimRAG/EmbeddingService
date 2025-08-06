@@ -1,0 +1,7 @@
+[project]
+name = "emebeddingservice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["fire>=0.7.0", "markitdown>=0.1.2", "mineru[core]>=2.1.10"]
