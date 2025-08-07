@@ -16,20 +16,20 @@ A multi-modal embedding service for SlimRAG that processes various file types an
 ### Documents
 
 - **Markdown (.md)**: Direct processing with bge-m3
-- **PDF (.pdf)**: MinerU extraction � bge-m3
-- **Word (.doc, .docx)**: MinerU extraction � bge-m3
-- **HTML (.html)**: markitdown conversion � bge-m3
+- **PDF (.pdf)**: MinerU extraction bge-m3
+- **Word (.doc, .docx)**: MinerU extraction bge-m3
+- **HTML (.html)**: markitdown conversion bge-m3
 
 ### Images
 
 - **JPEG (.jpg)**: Direct processing with CLIP
 - **PNG (.png)**: Direct processing with CLIP
-- **WebP (.webp)**: Convert to JPG � CLIP
-- **RAW (.arw)**: Convert to JPG + demosaic � CLIP
+- **WebP (.webp)**: Convert to JPG CLIP
+- **RAW (.arw)**: Convert to JPG + demosaic CLIP
 
 ### Videos
 
-- **MP4 (.mp4)**: Keyframe extraction � CLIP
+- **MP4 (.mp4)**: Keyframe extraction CLIP
 
 ## Installation
 
